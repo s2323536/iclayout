@@ -11,6 +11,4 @@ app.secret_key="any string but secret"
 @app.route('/')
 def home():
     return render_template('iclayout.html')
-
-        return render_template('iclayout.html', myResult="")
     
